@@ -29,6 +29,8 @@
  */
 @interface QuickSpec : XCTestCase
 
+@property (nonatomic, readonly) QuickSpec *currentSpec;
+
 /**
  Override this method in your spec to define a set of example groups
  and examples.
